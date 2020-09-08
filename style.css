@@ -1,0 +1,154 @@
+.central-banner{
+    padding-left: 97px;
+    padding-top: 321px;
+    padding-right: 112px;
+}
+.banner{
+    max-width: 1154px;
+    max-height: 407px;
+    border: 1px solid #d6d4d4;
+    border-radius: 30px;
+    padding-top: 52px;
+    padding-left: 51px;
+    padding-bottom: 54px;
+    display: flex;
+}
+.photo-area{
+    width: 358px;
+    height: 301px;
+    border: 1px solid #d6d4d4;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    justify-content: space-around;
+}
+.product img{
+    align-items: center;
+    padding-top:42px;
+    width: 272px;
+    height: 199;
+}
+.evaluation{
+    width: 181px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.evaluation img{
+    width: 28px;
+    height: 26px;
+}
+.banner-infos{
+    padding-left: 40px;
+    text-align: left;
+    height: 301px;
+    width: 706px;
+    display: flex;
+    flex-flow: column;
+    color: #333333
+}
+.banner-top{
+    display: flex;
+    flex-flow: column;
+    width: 592px;
+    height: 89px;
+}
+.description{
+    font-size: 22px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+.banner-top .sold-by-seller{
+    width: 145px;
+    height: 15px;
+}
+.banner-top .sold-by{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    padding-top:5px;
+    margin: 0px;
+}
+.banner-top .seller{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+}
+.banner-midle{
+    width: 280px;
+    height: 57px;
+    display: flex;
+    flex-flow: column;
+    padding-top: 62px;
+    margin: 0px;
+}
+.banner-midle .coin-price{
+    margin-left: 6px;
+    display: flex;
+    flex-flow: row;
+    width: 163px;
+    font-size: 30px;
+    font-family: Poppins;
+}
+.banner-midle .price{
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+.banner-midle .payment{
+    font-family: Poppins;
+    font-size: 14px;
+}
+.banner-midle .bold{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+}
+.banner-bottom{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    max-width: 706px;
+    height: 51px;
+    padding-top:50px;
+}
+.buy{
+    background-color: #ED0006;
+    border:0px;
+    border-radius: 25px;
+    width: 173px;
+    height: 51px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0px 3px 1px #C00F13;
+    outline:none;
+}
+.buy:hover{
+    border: none;
+    background-color: rgb(212, 85, 85);
+}
+.discount{
+    width: 153px;
+    height: 51px;
+    margin-right: 47px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #2D2D2D;
+    border:0px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.discount .value{
+    font-size: 24px;
+    padding-left: 8px;
+}
